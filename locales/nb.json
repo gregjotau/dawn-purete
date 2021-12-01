@@ -98,6 +98,11 @@
     "collection_title": "Navnet på samlingen"
   },
   "products": {
+    "bullets": {
+      "bullet_1": "FRI FRAKT (fra 400kr) OG BYTTE",
+      "bullet_2": "INGEN TOLL, FRA OSLO",
+      "bullet_3": "VIPPS, KLARNA OG KORT"
+    },
     "product": {
       "add_to_cart": "Legg i handlekurv",
       "description": "Beskrivelse",
