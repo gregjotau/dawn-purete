@@ -1,63 +1,108 @@
 {
-  "current": "Default",
-  "presets": {
-    "Default": {
-      "colors_solid_button_labels": "#FFFFFF",
-      "colors_accent_1": "#121212",
-      "colors_accent_2": "#334FB4",
-      "colors_text": "#121212",
-      "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#FFFFFF",
-      "colors_background_2": "#F3F3F3",
-      "type_header_font": "assistant_n4",
-      "type_body_font": "assistant_n4",
-      "sections": {
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "blocks": {
-            "announcement-bar-0": {
-              "type": "announcement",
-              "settings": {
-                "color_scheme": "background-1"
-              }
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#dfd6c7",
+    "colors_accent_2": "#f3ceba",
+    "colors_text": "#000000",
+    "colors_outline_button_labels": "#8a9e93",
+    "colors_background_2": "#fafafa",
+    "type_header_font": "quicksand_n5",
+    "type_body_font": "quicksand_n5",
+    "sale_badge_color_scheme": "background-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "social_facebook_link": "https:\/\/www.facebook.com\/purete.cosmetics",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/purete.no",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "favicon": "shopify:\/\/shop_images\/purete-favicon-p_1.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_5.png",
+    "checkout_logo_position": "left",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#8a9e93",
+    "checkout_button_color": "#8a9e93",
+    "checkout_error_color": "#ec7a7a",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "LAUNCHING SOON - Meld deg inn i Pureté Exclusive for varsel ved lansering",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/purete-logo_ce3f2d6f-e612-413f-9140-aa1a606e2f13.png",
+          "logo_width": 170,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "f14bd863-235f-47c9-8f17-4e5ad1d7696c": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Informasjon",
+              "menu": "informasjon-1"
             }
           },
-          "block_order": [
-            "announcement-bar-0"
-          ]
+          "4626ed6f-3a50-44ef-958a-802060c767c4": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": ""
+            }
+          },
+          "3b667cc8-80d2-4c77-85d0-d198aff09291": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Informasjon",
+              "menu": ""
+            }
+          },
+          "b88be3d8-15ec-492c-afe4-d083ef48f16e": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Produktinfo",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "f14bd863-235f-47c9-8f17-4e5ad1d7696c",
+          "4626ed6f-3a50-44ef-958a-802060c767c4",
+          "3b667cc8-80d2-4c77-85d0-d198aff09291",
+          "b88be3d8-15ec-492c-afe4-d083ef48f16e"
+        ],
+        "settings": {
+          "color_scheme": "accent-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Meld deg på vårt nyhetsbrev!",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
         }
       }
     },
-    "Craft": {
-      "colors_solid_button_labels": "#EFECEC",
-      "colors_accent_1": "#2A332F",
-      "colors_accent_2": "#476154",
-      "colors_text": "#1C1A1A",
-      "colors_outline_button_labels": "#7B8382",
-      "colors_background_1": "#EFECEC",
-      "colors_background_2": "#C1BCAE",
-      "type_header_font": "americana_n4",
-      "type_body_font": "quattrocento_sans_n4",
-      "sections": {
-        "footer": {
-          "type": "footer",
-          "settings": {
-            "color_scheme": "accent-1"
-          },
-          "blocks": {
-            "menu": {
-              "type": "link_list"
-            },
-            "text": {
-              "type": "text"
-            }
-          },
-          "block_order": [
-            "menu",
-            "text"
-          ]
-        }
-      }
-    }
+    "content_for_index": []
   }
 }
