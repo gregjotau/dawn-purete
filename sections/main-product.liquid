@@ -105,6 +105,7 @@
               {%- endform -%}
             </div>
           {%- when 'description' -%}
+            {% render 'product-bullets' %}
             {%- if product.description != blank -%}
               <div class="product__description rte">
                 {{ product.description }}
