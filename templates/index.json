@@ -7,7 +7,8 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "SEAMLESS COLLECTION"
+            "heading": "SEAMLESS COLLECTION",
+            "heading_size": "medium"
           }
         },
         "16252134879571dabc-1": {
@@ -37,10 +38,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/purete-header-launching_e6edce06-2111-4336-b4bb-df7fcc272a28.png",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "show_text_below": true
       }
     },
     "162567093514930cfb": {
@@ -124,7 +129,8 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Image banner"
+            "heading": "Image banner",
+            "heading_size": "medium"
           }
         },
         "162521498901cb9f0c-1": {
@@ -153,10 +159,14 @@
         "162521498901cb9f0c-2"
       ],
       "settings": {
+        "image_height": "medium",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "show_text_below": true
       }
     },
     "1625672024e106482f": {
@@ -177,6 +187,7 @@
         },
         "1625672024e106482f-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "shorts"
           }
@@ -240,7 +251,8 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Image banner"
+            "heading": "Image banner",
+            "heading_size": "medium"
           }
         },
         "1625218792c6c91e9d-1": {
@@ -269,10 +281,14 @@
         "1625218792c6c91e9d-2"
       ],
       "settings": {
+        "image_height": "medium",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": false,
-        "adapt_height_first_image": true
+        "show_text_below": true
       }
     },
     "1625215205f6f9d8b0": {
@@ -283,7 +299,8 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Image banner"
+            "heading": "Image banner",
+            "heading_size": "medium"
           }
         },
         "1625215205f6f9d8b0-2": {
@@ -312,10 +329,14 @@
         "1625215205f6f9d8b0-1"
       ],
       "settings": {
+        "image_height": "medium",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "show_text_below": true
       }
     },
     "1625670949a10fefb7": {
@@ -403,7 +424,9 @@
         "image_ratio": "portrait",
         "show_secondary_image": false,
         "add_image_padding": false,
-        "show_vendor": false
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     },
     "162567415706bdadcd": {
@@ -413,7 +436,8 @@
         "162567415706bdadcd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner"
+            "heading": "Image banner",
+            "heading_size": "medium"
           }
         },
         "162567415706bdadcd-1": {
@@ -440,10 +464,14 @@
         "162567415706bdadcd-2"
       ],
       "settings": {
+        "image_height": "medium",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "show_text_below": true
       }
     },
     "1626465837f2736291": {
@@ -490,7 +518,8 @@
         "16264658478aa8e9df-0": {
           "type": "heading",
           "settings": {
-            "heading": "Den beste hudpleien"
+            "heading": "Den beste hudpleien",
+            "heading_size": "medium"
           }
         },
         "16264658478aa8e9df-1": {
@@ -503,7 +532,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Kjøp her",
-            "button_link_1": "shopify:\/\/collections\/concealer",
+            "button_link_1": "shopify:\/\/collections\/alle-produkter",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -518,10 +547,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/woman-practicing-her-skincare-routine.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "show_text_below": true
       }
     }
   },
