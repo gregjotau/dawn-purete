@@ -2,39 +2,6 @@
   "sections": {
     "16252134879571dabc": {
       "type": "image-banner",
-      "blocks": {
-        "16252134879571dabc-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "SEAMLESS COLLECTION"
-          }
-        },
-        "16252134879571dabc-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
-        },
-        "16252134879571dabc-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/seamless-collection",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16252134879571dabc-0",
-        "16252134879571dabc-1",
-        "16252134879571dabc-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/purete-header-launching_e6edce06-2111-4336-b4bb-df7fcc272a28.png",
         "desktop_text_box_position": "center",
@@ -55,44 +22,6 @@
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": false
-      }
-    },
-    "162567093514930cfb": {
-      "type": "rich-text",
-      "blocks": {
-        "162567093514930cfb-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "162567093514930cfb-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "162567093514930cfb-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "SHOP NORGES NYE FAVORITTMERKE",
-            "button_link": "https:\/\/famme.no",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "162567093514930cfb-0",
-        "162567093514930cfb-1",
-        "162567093514930cfb-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
       }
     },
     "16256745504cac095c": {
