@@ -12,7 +12,8 @@
     "sold_out_badge_color_scheme": "inverse",
     "social_facebook_link": "https:\/\/www.facebook.com\/purete.cosmetics",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/instagram.com\/purete.no?utm_medium=copy_link",
+    "social_instagram_link": "https:\/\/www.instagram.com\/purete.no",
+    "social_tiktok_link": "https:\/\/vm.tiktok.com\/ZMLJ1MwGG\/",
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "favicon": "shopify:\/\/shop_images\/purete-favicon-p_1.png",
@@ -45,7 +46,6 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/purete-logo_ce3f2d6f-e612-413f-9140-aa1a606e2f13.png",
           "logo_width": 170,
           "logo_position": "middle-left",
@@ -77,12 +77,21 @@
               "heading": "",
               "subtext": ""
             }
+          },
+          "3b667cc8-80d2-4c77-85d0-d198aff09291": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Informasjon",
+              "menu": ""
+            }
           }
         },
         "block_order": [
           "f14bd863-235f-47c9-8f17-4e5ad1d7696c",
           "b88be3d8-15ec-492c-afe4-d083ef48f16e",
-          "4626ed6f-3a50-44ef-958a-802060c767c4"
+          "4626ed6f-3a50-44ef-958a-802060c767c4",
+          "3b667cc8-80d2-4c77-85d0-d198aff09291"
         ],
         "settings": {
           "color_scheme": "accent-1",
