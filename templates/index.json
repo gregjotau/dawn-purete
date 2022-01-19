@@ -7,8 +7,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "SEAMLESS COLLECTION",
-            "heading_size": "medium"
+            "heading": "SEAMLESS COLLECTION"
           }
         },
         "16252134879571dabc-1": {
@@ -38,14 +37,24 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/purete-header-launching_e6edce06-2111-4336-b4bb-df7fcc272a28.png",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "adapt_height_first_image": false
+      }
+    },
+    "1641984502d0ddf793": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Bestselgere",
+        "collection": "alle-produkter",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": false
       }
     },
     "162567093514930cfb": {
@@ -88,6 +97,7 @@
     },
     "16256745504cac095c": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16256745504cac095c-0": {
           "type": "heading",
@@ -121,418 +131,26 @@
         "layout": "image_first"
       }
     },
-    "162521498901cb9f0c": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "162521498901cb9f0c-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "162521498901cb9f0c-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "162521498901cb9f0c-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "162521498901cb9f0c-0",
-        "162521498901cb9f0c-1",
-        "162521498901cb9f0c-2"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1625672024e106482f": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "1625672024e106482f-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sunglasses"
-          }
-        },
-        "1625672024e106482f-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "crop-tops"
-          }
-        },
-        "1625672024e106482f-2": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "shorts"
-          }
-        }
-      },
-      "block_order": [
-        "1625672024e106482f-0",
-        "1625672024e106482f-1",
-        "1625672024e106482f-2"
-      ],
-      "settings": {
-        "title": "Alt du trenger for ren og glødende hud",
-        "image_ratio": "portrait",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": true,
-        "image_padding": true,
-        "show_view_all": true
-      }
-    },
-    "16256752639aa72aec": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "16256752639aa72aec-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "4FLEX JEANS"
-          }
-        },
-        "16256752639aa72aec-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "16256752639aa72aec-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP HER",
-            "button_link": "shopify:\/\/products\/4-flex-jeans"
-          }
-        }
-      },
-      "block_order": [
-        "16256752639aa72aec-0",
-        "16256752639aa72aec-1",
-        "16256752639aa72aec-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "1625218792c6c91e9d": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "1625218792c6c91e9d-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "1625218792c6c91e9d-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1625218792c6c91e9d-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1625218792c6c91e9d-0",
-        "1625218792c6c91e9d-1",
-        "1625218792c6c91e9d-2"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
-    "1625215205f6f9d8b0": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "1625215205f6f9d8b0-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "1625215205f6f9d8b0-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "DENIM COLLECTION",
-            "button_link_1": "shopify:\/\/collections\/jeans",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "1625215205f6f9d8b0-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        }
-      },
-      "block_order": [
-        "1625215205f6f9d8b0-0",
-        "1625215205f6f9d8b0-2",
-        "1625215205f6f9d8b0-1"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1625670949a10fefb7": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1625670949a10fefb7-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "1625670949a10fefb7-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "1625670949a10fefb7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP DENIM",
-            "button_link": "shopify:\/\/collections\/jeans",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1625670949a10fefb7-0",
-        "1625670949a10fefb7-1",
-        "1625670949a10fefb7-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "image_text": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Scrunch Tights"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Våre Scrunch Tights kommer i mange ulike farger. Sjekk ut kolleksjonen vår og finn din favoritt. <\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP HER",
-            "button_link": "shopify:\/\/collections\/scrunch"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "collection": "ansikt",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "162567415706bdadcd": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "162567415706bdadcd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "162567415706bdadcd-1": {
-          "type": "text",
-          "settings": {
-            "text": "BLI MED I NORGES STØRSTE PRODUKTUTVIKLINGSGRUPPE MED OVER 20.000 MEDLEMMER I NORGE!"
-          }
-        },
-        "162567415706bdadcd-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "JOIN I DAG",
-            "button_link_1": "https:\/\/www.facebook.com\/groups\/fammeproduktutvikling",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "162567415706bdadcd-0",
-        "162567415706bdadcd-1",
-        "162567415706bdadcd-2"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1626465837f2736291": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "1626465837f2736291-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ansikt"
-          }
-        },
-        "1626465837f2736291-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ansiktsolje"
-          }
-        },
-        "1626465837f2736291-2": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1626465837f2736291-0",
-        "1626465837f2736291-1",
-        "1626465837f2736291-2"
-      ],
-      "settings": {
-        "title": "Bestselgere innen velvære for ansikt",
-        "image_ratio": "portrait",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": true,
-        "show_view_all": false
-      }
-    },
     "16264658478aa8e9df": {
       "type": "image-banner",
       "blocks": {
         "16264658478aa8e9df-0": {
           "type": "heading",
           "settings": {
-            "heading": "Den beste hudpleien",
-            "heading_size": "medium"
+            "heading": "Den beste hudpleien"
           }
         },
         "16264658478aa8e9df-1": {
           "type": "text",
           "settings": {
-            "text": "Finn produkter til alle formål"
+            "text": "Finn produkter til alle formål. Hudpleie skal være enkelt og rimelig. Vi tilbyr flere produkter som skal sørge for at du føler deg like fresh både med og uten sminke!"
           }
         },
         "16264658478aa8e9df-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Kjøp her",
-            "button_link_1": "shopify:\/\/collections\/alle-produkter",
+            "button_link_1": "shopify:\/\/collections\/concealer",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -547,31 +165,213 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/woman-practicing-her-skincare-routine.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "adapt_height_first_image": false
+      }
+    },
+    "1641984570c9fe666e": {
+      "type": "collection-list",
+      "blocks": {
+        "16419845702dce8ef9-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bestselgere-sminke-velvaere"
+          }
+        },
+        "16419845702dce8ef9-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fet-kombinert-hud"
+          }
+        },
+        "16419845702dce8ef9-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "normal-hud"
+          }
+        }
+      },
+      "block_order": [
+        "16419845702dce8ef9-0",
+        "16419845702dce8ef9-1",
+        "16419845702dce8ef9-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1641984722fcc3092b": {
+      "type": "image-banner",
+      "blocks": {
+        "1641984722df3574cf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Naturlig hudpleie"
+          }
+        },
+        "1641984722df3574cf-1": {
+          "type": "text",
+          "settings": {
+            "text": "Naturlig hudpleie som gir resultater. Oppnå ren og fresh hud med enkle produkter."
+          }
+        },
+        "1641984722df3574cf-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Hvorfor naturlig hudpleie?",
+            "button_link_1": "shopify:\/\/blogs\/hudpleie\/hvorfor-velge-naturlig-hudpleie",
+            "button_style_secondary_1": false,
+            "button_label_2": "Våre produkter",
+            "button_link_2": "shopify:\/\/collections\/alle-produkter",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1641984722df3574cf-0",
+        "1641984722df3574cf-1",
+        "1641984722df3574cf-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/applying-moisterizing-face-mask.jpg",
+        "image_2": "shopify:\/\/shop_images\/making-funny-faces-during-skincare-routine.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1642066630b71c113f": {
+      "type": "featured-blog",
+      "blocks": {
+        "1642066630c5f35585-0": {
+          "type": "title",
+          "settings": {
+            "show_date": true,
+            "show_author": false
+          }
+        },
+        "1642066630c5f35585-1": {
+          "type": "summary",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1642066630c5f35585-2": {
+          "type": "link",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1642066630c5f35585-0",
+        "1642066630c5f35585-1",
+        "1642066630c5f35585-2"
+      ],
+      "settings": {
+        "heading": "Lær mer om hudpleie",
+        "blog": "hudpleie",
+        "post_limit": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "soft_background": false
+      }
+    },
+    "1642067317b48d5d97": {
+      "type": "featured-blog",
+      "blocks": {
+        "16420673177318424e-0": {
+          "type": "title",
+          "settings": {
+            "show_date": true,
+            "show_author": false
+          }
+        },
+        "16420673177318424e-1": {
+          "type": "summary",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "16420673177318424e-2": {
+          "type": "link",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16420673177318424e-0",
+        "16420673177318424e-1",
+        "16420673177318424e-2"
+      ],
+      "settings": {
+        "heading": "Lær mer om Pureté og våre produkter",
+        "blog": "produkter",
+        "post_limit": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "soft_background": false
+      }
+    },
+    "1642066786bd1e3290": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642066786d98af13c-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1642066786d98af13c-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1642066786d98af13c-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1642066786d98af13c-0",
+        "1642066786d98af13c-1",
+        "1642066786d98af13c-2"
+      ],
+      "settings": {
+        "title": "Nyttige tips",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     }
   },
   "order": [
     "16252134879571dabc",
+    "1641984502d0ddf793",
     "162567093514930cfb",
     "16256745504cac095c",
-    "162521498901cb9f0c",
-    "1625672024e106482f",
-    "16256752639aa72aec",
-    "1625218792c6c91e9d",
-    "1625215205f6f9d8b0",
-    "1625670949a10fefb7",
-    "image_text",
-    "featured_products",
-    "162567415706bdadcd",
-    "1626465837f2736291",
-    "16264658478aa8e9df"
+    "16264658478aa8e9df",
+    "1641984570c9fe666e",
+    "1641984722fcc3092b",
+    "1642066630b71c113f",
+    "1642067317b48d5d97",
+    "1642066786bd1e3290"
   ]
 }
