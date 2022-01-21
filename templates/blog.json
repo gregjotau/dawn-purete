@@ -3,13 +3,13 @@
     "1642768651f02f3f3b": {
       "type": "btns",
       "settings": {
-        "menu": "",
-        "bg": "#8a9e93",
-        "color": "#fff",
-        "width": 165,
-        "padx": 10,
-        "pady": 0,
-        "radius": 15
+        "menu": "ingredienser",
+        "bg": "#dfd6c7",
+        "color": "#ffffff",
+        "width": 185,
+        "padx": 20,
+        "pady": 6,
+        "radius": 27
       }
     },
     "1642768645d0df8adb": {
@@ -17,8 +17,8 @@
       "settings": {
         "menu": "produkter",
         "bg": "#dfd6c7",
-        "color": "#fff",
-        "width": 187,
+        "color": "#ffffff",
+        "width": 185,
         "padx": 20,
         "pady": 6,
         "radius": 27
