@@ -1,5 +1,17 @@
 {
   "sections": {
+    "1642768645d0df8adb": {
+      "type": "btns",
+      "settings": {
+        "menu": "produkter",
+        "bg": "#dfd6c7",
+        "color": "#fff",
+        "width": 187,
+        "padx": 10,
+        "pady": 6,
+        "radius": 15
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -14,6 +26,7 @@
     }
   },
   "order": [
+    "1642768645d0df8adb",
     "main"
   ]
 }
