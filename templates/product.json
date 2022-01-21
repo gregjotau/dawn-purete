@@ -37,21 +37,21 @@
           "settings": {
           }
         },
-        "db56ba4a-5be0-429b-93b2-c8638ae97b4c": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Ingredienser",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.my_fields.ingridients | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
         "336bcf6f-acc7-4394-b194-c3ab97b5a4e9": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Egenskaper",
             "icon": "none",
             "content": "<p>{{ product.metafields.my_fields.egenskaper | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "db56ba4a-5be0-429b-93b2-c8638ae97b4c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredienser",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.ingridients | metafield_tag }}<\/p>",
             "page": ""
           }
         }
@@ -63,8 +63,8 @@
         "variant_picker",
         "buy_buttons",
         "description",
-        "db56ba4a-5be0-429b-93b2-c8638ae97b4c",
-        "336bcf6f-acc7-4394-b194-c3ab97b5a4e9"
+        "336bcf6f-acc7-4394-b194-c3ab97b5a4e9",
+        "db56ba4a-5be0-429b-93b2-c8638ae97b4c"
       ],
       "settings": {
         "enable_sticky_info": true,
