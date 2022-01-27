@@ -226,7 +226,7 @@
 
   <div class="footer__content-bottom">
     <div class="footer__content-bottom-wrapper page-width">
-      <div class="footer__column footer__localization">
+      <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <noscript>
             {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
@@ -423,7 +423,7 @@
         {
           "type": "richtext",
           "id": "subtext",
-          "default": "<p>Share store details, promotions, or brand content with your customers.</p>",
+          "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
         }
       ]

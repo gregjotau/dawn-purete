@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.product.grid {
+  gap: 0;
+}
+
 .product--no-media {
   max-width: 57rem;
   margin: 0 auto;
@@ -34,6 +38,10 @@
     padding-left: 5rem;
   }
 
+  .product__info-wrapper--extra-padding {
+    padding-left: 8rem;
+  }
+
   .product__media-container .slider-buttons {
     display: none;
   }
@@ -42,25 +50,25 @@
 @media screen and (min-width: 990px) {
   .product--large:not(.product--no-media) .product__media-wrapper {
     max-width: 65%;
-    width: calc(65% - 1rem / 2);
+    width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--large:not(.product--no-media) .product__info-wrapper {
     padding-left: 4rem;
     max-width: 35%;
-    width: calc(35% - 1rem / 2);
+    width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--medium:not(.product--no-media) .product__media-wrapper,
   .product--small:not(.product--no-media) .product__info-wrapper {
     max-width: 55%;
-    width: calc(55% - 1rem / 2);
+    width: calc(55% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--medium:not(.product--no-media) .product__info-wrapper,
   .product--small:not(.product--no-media) .product__media-wrapper {
     max-width: 45%;
-    width: calc(45% - 1rem / 2);
+    width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 }
 
@@ -334,7 +342,7 @@ a.product__text {
 
 .product .price--sold-out .price__badge-sold-out {
   background: transparent;
-  color: rgb(var(--color-background));
+  color: rgb(var(--color-base-text));
   border-color: transparent;
 }
 
@@ -343,6 +351,10 @@ a.product__text {
 }
 
 @media screen and (min-width: 750px) {
+  .product__info-container {
+    max-width: 60rem;
+  }
+  
   .product__info-container .price--on-sale .price-item--regular {
     font-size: 1.6rem;
   }
@@ -416,6 +428,10 @@ a.product__text {
 .product--no-media fieldset.product-form__input {
   flex-wrap: wrap;
   margin: 0 auto 1.2rem auto;
+}
+
+.product-form__buttons {
+  max-width: 44rem;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -823,12 +839,19 @@ a.product__text {
   border-color: rgba(var(--color-foreground), var(--popup-border-opacity));
   border-style: solid;
   border-width: var(--popup-border-width);
-  filter: drop-shadow(
-    var(--popup-shadow-horizontal-offset)
-    var(--popup-shadow-vertical-offset)
-    var(--popup-shadow-blur-radius)
-    rgba(var(--color-foreground), var(--popup-shadow-opacity))
-  );
+  box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
+}
+
+.product-popup-modal__content.focused {
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+  0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3),
+  var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
+}
+
+.product-popup-modal__content:focus-visible{
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+  0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3),
+  var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
 
 @media screen and (min-width: 750px) {
@@ -984,10 +1007,11 @@ a.product__text {
     align-items: center;
   }
 
-  .thumbnail-list.slider {
+  .thumbnail-slider .thumbnail-list.slider {
     display: flex;
     padding: 0.5rem;
     flex: 1;
+    scroll-padding-left: 0.5rem;
   }
 
   .thumbnail-list__item.slider__slide {
@@ -1001,10 +1025,11 @@ a.product__text {
     align-items: center;
   }
 
-  .thumbnail-list.slider--tablet-up {
+  .thumbnail-slider .thumbnail-list.slider--tablet-up {
     display: flex;
     padding: 0.5rem;
     flex: 1;
+    scroll-padding-left: 0.5rem;
   }
 
   .product__media-gallery .slider-mobile-gutter .slider-button {
@@ -1068,7 +1093,7 @@ a.product__text {
 
 .thumbnail[aria-current]:focus:not(:focus-visible) {
   outline: 0;
-  box-shadow: none;
+  box-shadow: 0 0 0 0.1rem rgb(var(--color-foreground));
 }
 
 .thumbnail img {

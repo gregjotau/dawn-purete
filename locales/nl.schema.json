@@ -53,7 +53,7 @@
       "settings": {
         "type_header_font": {
           "label": "Lettertype",
-          "info": "Als je een ander lettertype selecteert, kan dit de snelheid van je winkel beïnvloeden. Meer informatie over systeemlettertypen.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Als je een ander lettertype selecteert, kan dit de snelheid van je winkel beïnvloeden. Meer informatie over systeemlettertypen.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "header__1": {
           "content": "Kopteksten"
@@ -63,7 +63,7 @@
         },
         "type_body_font": {
           "label": "Lettertype",
-          "info": "Als je een ander lettertype selecteert, kan dit de snelheid van je winkel beïnvloeden. Meer informatie over systeemlettertypen.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Als je een ander lettertype selecteert, kan dit de snelheid van je winkel beïnvloeden. Meer informatie over systeemlettertypen.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Schaal lettertypegrootte"
@@ -74,35 +74,8 @@
       }
     },
     "styles": {
-      "name": "Stijlen",
+      "name": "Pictogrammen",
       "settings": {
-        "sale_badge_color_scheme": {
-          "options__1": {
-            "label": "Achtergrond 2"
-          },
-          "options__2": {
-            "label": "Accent 1"
-          },
-          "options__3": {
-            "label": "Accent 2"
-          },
-          "label": "Kleurschema uitverkoopbadge"
-        },
-        "sold_out_badge_color_scheme": {
-          "options__1": {
-            "label": "Achtergrond 1"
-          },
-          "options__2": {
-            "label": "Omkeren"
-          },
-          "label": "Badge-kleurschema is uitverkocht"
-        },
-        "header__1": {
-          "content": "Badges"
-        },
-        "header__2": {
-          "content": "Decoratieve elementen"
-        },
         "accent_icons": {
           "options__1": {
             "label": "Accent 1"
@@ -116,7 +89,7 @@
           "options__4": {
             "label": "Tekst"
           },
-          "label": "Accentpictogrammen"
+          "label": "Kleur"
         }
       }
     },
@@ -125,39 +98,39 @@
       "settings": {
         "social_twitter_link": {
           "label": "Twitter",
-          "info": "https:\/\/twitter.com\/shopify"
+          "info": "https://twitter.com/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https:\/\/facebook.com\/shopify"
+          "info": "https://facebook.com/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https:\/\/pinterest.com\/shopify"
+          "info": "https://pinterest.com/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http:\/\/instagram.com\/shopify"
+          "info": "http://instagram.com/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https:\/\/tiktok.com\/@shopify"
+          "info": "https://tiktok.com/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https:\/\/shopify.tumblr.com"
+          "info": "https://shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https:\/\/www.snapchat.com\/add\/shopify"
+          "info": "https://www.snapchat.com/add/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https:\/\/www.youtube.com\/shopify"
+          "info": "https://www.youtube.com/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https:\/\/vimeo.com\/shopify"
+          "info": "https://vimeo.com/shopify"
         },
         "header": {
           "content": "Socialmedia-accounts"
@@ -187,18 +160,27 @@
       "name": "Opmaak",
       "settings": {
         "page_width": {
-          "label": "Maximale breedte",
-          "options__1": {
-            "label": "1200px"
-          },
-          "options__2": {
-            "label": "1600px"
-          }
+          "label": "Paginabreedte"
+        },
+        "spacing_sections": {
+          "label": "Verticale ruimte tussen gedeeltes"
+        },
+        "header__grid": {
+          "content": "Grid"
+        },
+        "paragraph__grid": {
+          "content": "Is van invloed op gedeeltes met een opmaak met meerdere kolommen."
+        },
+        "spacing_grid_horizontal": {
+          "label": "Horizontale ruimte"
+        },
+        "spacing_grid_vertical": {
+          "label": "Verticale ruimte"
         }
       }
     },
     "search_input": {
-      "name": "Input zoeken",
+      "name": "Zoekgedrag",
       "settings": {
         "header": {
           "content": "Productsuggesties"
@@ -215,6 +197,132 @@
           "info": "Zichtbaar als productsuggesties zijn ingeschakeld."
         }
       }
+    },
+    "global": {
+      "settings": {
+        "header__border": {
+          "content": "Rand"
+        },
+        "header__shadow": {
+          "content": "Schaduw"
+        },
+        "blur": {
+          "label": "Vervaging"
+        },
+        "corner_radius": {
+          "label": "Hoekradius"
+        },
+        "horizontal_offset": {
+          "label": "Horizontale verschuiving"
+        },
+        "vertical_offset": {
+          "label": "Verticale verschuiving"
+        },
+        "thickness": {
+          "label": "Dikte"
+        },
+        "opacity": {
+          "label": "Doorschijnendheid"
+        },
+        "image_padding": {
+          "label": "Opvulling voor afbeeldingen"
+        },
+        "text_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Midden"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Tekstuitlijning"
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Accent 1"
+          },
+          "options__2": {
+            "label": "Accent 2"
+          },
+          "options__3": {
+            "label": "Achtergrond 1"
+          },
+          "options__4": {
+            "label": "Achtergrond 2"
+          },
+          "options__5": {
+            "label": "Omkeren"
+          },
+          "label": "Kleurschema"
+        }
+      }
+    },
+    "cards": {
+      "name": "Kaarten",
+      "settings": {
+        "header__badge": {
+          "content": "Badge"
+        },
+        "style": {
+          "options__1": {
+            "label": "Standaard"
+          },
+          "options__2": {
+            "label": "Kaart"
+          },
+          "label": "Stijl"
+        }
+      }
+    },
+    "badges": {
+      "name": "Badges",
+      "settings": {
+        "position": {
+          "options__1": {
+            "label": "Linksonder"
+          },
+          "options__2": {
+            "label": "Rechtsonder"
+          },
+          "options__3": {
+            "label": "Linksboven"
+          },
+          "options__4": {
+            "label": "Rechtsboven"
+          },
+          "label": "Positie productkaart"
+        },
+        "sale_badge_color_scheme": {
+          "label": "Kleurschema uitverkoopbadge"
+        },
+        "sold_out_badge_color_scheme": {
+          "label": "Kleurschema uitverkocht-badge"
+        }
+      }
+    },
+    "buttons": {
+      "name": "Knoppen"
+    },
+    "variant_pills": {
+      "name": "Variantopties"
+    },
+    "inputs": {
+      "name": "Invoer"
+    },
+    "content_containers": {
+      "name": "Content-containers"
+    },
+    "popups": {
+      "name": "Vervolgkeuzelijsten en pop-ups",
+      "paragraph": "Is van invloed op o.a. navigatie-vervolgkeuzelijsten, modale pop-upvensters en winkelwagengerelateerde pop-upmeldingen."
+    },
+    "media": {
+      "name": "Media"
+    },
+    "drawers": {
+      "name": "Lades"
     }
   },
   "sections": {
@@ -312,7 +420,7 @@
               "label": "Afbeelding"
             },
             "image_padding": {
-              "label": "Gebruik originele breedte-\/hoogteverhouding van afbeeldingen",
+              "label": "Gebruik originele breedte-/hoogteverhouding van afbeeldingen",
               "info": "Selecteer als je niet wilt dat je afbeeldingen worden bijgesneden."
             }
           }
@@ -328,10 +436,6 @@
             },
             "second_image": {
               "label": "Tweede afbeeldingen tonen als je de aanwijzer erboven houdt"
-            },
-            "image_padding": {
-              "label": "Opvulling voor afbeelding toevoegen",
-              "info": "Selecteer de opvulling voor afbeeldingen als je niet wilt dat je afbeeldingen worden bijgesneden."
             }
           }
         },
@@ -340,28 +444,6 @@
           "settings": {
             "collection": {
               "label": "Collectie"
-            },
-            "image_padding": {
-              "label": "Opvulling voor afbeelding toevoegen",
-              "info": "Selecteer opvulling voor afbeeldingen als je niet wilt dat je afbeeldingen worden bijgesneden."
-            },
-            "color_scheme": {
-              "options__1": {
-                "label": "Accent 1"
-              },
-              "options__2": {
-                "label": "Accent 2"
-              },
-              "options__3": {
-                "label": "Achtergrond 1"
-              },
-              "options__4": {
-                "label": "Achtergrond 2"
-              },
-              "options__5": {
-                "label": "Omkeren"
-              },
-              "label": "Kleurschema"
             }
           }
         },
@@ -377,7 +459,7 @@
               "placeholder": "Gebruik een URL van YouTube of Vimeo"
             },
             "image_padding": {
-              "label": "Gebruik originele breedte-\/hoogteverhouding van afbeeldingen",
+              "label": "Gebruik originele breedte-/hoogteverhouding van afbeeldingen",
               "info": "Selecteer als je niet wilt dat je afbeeldingen worden bijgesneden."
             },
             "description": {
@@ -398,7 +480,7 @@
           "label": "Opschrift"
         },
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -408,31 +490,10 @@
           "options__3": {
             "label": "Square"
           },
-          "info": "Voeg afbeeldingen toe door je collecties bij te werken. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Accent 1"
-          },
-          "options__2": {
-            "label": "Accent 2"
-          },
-          "options__3": {
-            "label": "Achtergrond 1"
-          },
-          "options__4": {
-            "label": "Achtergrond 2"
-          },
-          "options__5": {
-            "label": "Omkeren"
-          },
-          "label": "Kleurschema"
+          "info": "Voeg afbeeldingen toe door je collecties bij te werken. [Meer informatie](https://help.shopify.com/en/manual/products/collections)"
         },
         "swipe_on_mobile": {
           "label": "Swipen op mobiel inschakelen"
-        },
-        "image_padding": {
-          "label": "Opvulling voor afbeeldingen toevoegen"
         },
         "show_view_all": {
           "label": "Schakel de knop 'Alles weergeven' in als de lijst meer collecties bevat dan wordt getoond"
@@ -487,7 +548,7 @@
         },
         "show_image": {
           "label": "Uitgelichte afbeelding weergeven",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "show_date": {
           "label": "Datum weergeven"
@@ -522,7 +583,7 @@
           "content": "Productkaart"
         },
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -536,18 +597,12 @@
         "show_secondary_image": {
           "label": "Tweede afbeeldingen tonen als je de aanwijzer erboven houdt"
         },
-        "add_image_padding": {
-          "label": "Opvulling voor afbeeldingen toevoegen"
-        },
         "show_vendor": {
           "label": "Verkoper weergeven"
         },
-        "show_image_outline": {
-          "label": "Toon afbeeldingsrand"
-        },
         "show_rating": {
           "label": "Geef productbeoordeling weer",
-          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/sections#featured-collection-show-product-rating)"
+          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
         }
       },
       "presets": {
@@ -609,7 +664,7 @@
         },
         "header__1": {
           "content": "Aanmelding voor het ontvangen van e-mail",
-          "info": "Abonnees die worden toegevoegd aan je 'geaccepteerde marketing'-klantenlijst. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/customers\/manage-customers)"
+          "info": "Abonnees die worden toegevoegd aan je 'geaccepteerde marketing'-klantenlijst. [Meer informatie](https://help.shopify.com/en/manual/customers/manage-customers)"
         },
         "header__2": {
           "content": "Pictogrammen voor social media",
@@ -619,19 +674,19 @@
           "label": "Pictogrammen social media weergeven"
         },
         "header__3": {
-          "content": "Kiezer voor land\/regio"
+          "content": "Kiezer voor land/regio"
         },
         "header__4": {
-          "info": "Ga naar je [payment settings.](\/admin\/settings\/payments) om een land\/regio toe te voegen"
+          "info": "Ga naar je [payment settings.](/admin/settings/payments) om een land/regio toe te voegen"
         },
         "enable_country_selector": {
-          "label": "Kiezer voor land\/regio inschakelen"
+          "label": "Kiezer voor land/regio inschakelen"
         },
         "header__5": {
           "content": "Taalkiezer"
         },
         "header__6": {
-          "info": "Ga naar je [language settings.](\/admin\/settings\/languages) om een taal toe te voegen"
+          "info": "Ga naar je [language settings.](/admin/settings/languages) om een taal toe te voegen"
         },
         "enable_language_selector": {
           "label": "Taalkiezer inschakelen"
@@ -761,7 +816,7 @@
           "options__3": {
             "label": "Groot"
           },
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
@@ -902,8 +957,7 @@
           "options__3": {
             "label": "Groot"
           },
-          "label": "Hoogte afbeelding",
-          "info": "Bepaalt de hoogte van secties."
+          "label": "Hoogte afbeelding"
         },
         "color_scheme": {
           "options__1": {
@@ -1093,7 +1147,7 @@
               "options__3": {
                 "label": "Gemiddeld"
               },
-              "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)",
+              "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
               "options__4": {
                 "label": "Groot"
               }
@@ -1118,10 +1172,10 @@
           "name": "Delen",
           "settings": {
             "featured_image_info": {
-              "content": "De uitgelichte afbeelding van de pagina wordt weergegeven als een voorbeeldafbeelding als je een link in je posts op social media plaatst. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
+              "content": "De uitgelichte afbeelding van de pagina wordt weergegeven als een voorbeeldafbeelding als je een link in je posts op social media plaatst. [Meer informatie](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Een winkelnaam en beschrijving worden weergegeven in de voorbeeldafbeelding. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+              "content": "Een winkelnaam en beschrijving worden weergegeven in de voorbeeldafbeelding. [Meer informatie](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "text": {
               "label": "Tekst"
@@ -1140,7 +1194,7 @@
           "label": "Uitgelichte afbeelding weergeven"
         },
         "paragraph": {
-          "content": "Wijzig uittreksels door je blogposts bij te werken. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/writing-blogs#display-an-excerpt-from-a-blog-post)"
+          "content": "Wijzig uittreksels door je blogposts bij te werken. [Meer informatie](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
         },
         "show_date": {
           "label": "Datum weergeven"
@@ -1172,7 +1226,7 @@
           "options__4": {
             "label": "Groot"
           },
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
@@ -1204,14 +1258,14 @@
       "name": "Collectiebanner",
       "settings": {
         "paragraph": {
-          "content": "Voeg een beschrijving of afbeelding toe door je collectie bij te werken. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/products\/collections\/collection-layout)"
+          "content": "Voeg een beschrijving of afbeelding toe door je collectie bij te werken. [Meer informatie](https://help.shopify.com/en/manual/products/collections/collection-layout)"
         },
         "show_collection_description": {
           "label": "Collectiebeschrijving weergeven"
         },
         "show_collection_image": {
           "label": "Collectieafbeelding weergeven",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
@@ -1222,7 +1276,7 @@
           "label": "Producten per pagina"
         },
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -1236,19 +1290,16 @@
         "show_secondary_image": {
           "label": "Tweede afbeeldingen tonen als je de aanwijzer erboven houdt"
         },
-        "add_image_padding": {
-          "label": "Opvulling voor afbeeldingen toevoegen"
-        },
         "show_vendor": {
           "label": "Verkoper weergeven"
         },
         "enable_tags": {
           "label": "Filteren inschakelen",
-          "info": "[Filters aanpassen](\/admin\/menus)"
+          "info": "[Filters aanpassen](/admin/menus)"
         },
         "enable_filtering": {
           "label": "Filteren inschakelen",
-          "info": "[Filters aanpassen](\/admin\/menus)"
+          "info": "[Filters aanpassen](/admin/menus)"
         },
         "enable_sorting": {
           "label": "Sortering inschakelen"
@@ -1259,15 +1310,12 @@
         "header__3": {
           "content": "Productkaart"
         },
-        "show_image_outline": {
-          "label": "Toon afbeeldingsrand"
-        },
         "collapse_on_larger_devices": {
           "label": "Inklappen op desktop"
         },
         "show_rating": {
           "label": "Geef productbeoordeling weer",
-          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#product-grid-show-product-rating)"
+          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
         }
       }
     },
@@ -1299,7 +1347,7 @@
           }
         },
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -1309,28 +1357,7 @@
           "options__3": {
             "label": "Square"
           },
-          "info": "Voeg afbeeldingen toe door je collecties bij te werken. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "Accent 1"
-          },
-          "options__2": {
-            "label": "Accent 2"
-          },
-          "options__3": {
-            "label": "Achtergrond 1"
-          },
-          "options__4": {
-            "label": "Achtergrond 2"
-          },
-          "options__5": {
-            "label": "Omkeren"
-          },
-          "label": "Kleurschema"
-        },
-        "image_padding": {
-          "label": "Opvulling voor afbeeldingen toevoegen"
+          "info": "Voeg afbeeldingen toe door je collecties bij te werken. [Meer informatie](https://help.shopify.com/en/manual/products/collections)"
         }
       }
     },
@@ -1441,7 +1468,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Dynamische checkoutknoppen weergeven",
-              "info": "Bij de betaalmethoden die bij je winkel beschikbaar zijn, zien klanten de optie die hun voorkeur heeft, zoals PayPal of Apple Pay. [Learn more](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+              "info": "Bij de betaalmethoden die bij je winkel beschikbaar zijn, zien klanten de optie die hun voorkeur heeft, zoals PayPal of Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             }
           }
         },
@@ -1455,10 +1482,10 @@
           "name": "Delen",
           "settings": {
             "featured_image_info": {
-              "content": "De uitgelichte afbeelding van de pagina wordt weergegeven als een voorbeeldafbeelding als je een link in je posts op social media plaatst. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
+              "content": "De uitgelichte afbeelding van de pagina wordt weergegeven als een voorbeeldafbeelding als je een link in je posts op social media plaatst. [Meer informatie](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Een winkelnaam en beschrijving worden weergegeven in de voorbeeldafbeelding. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+              "content": "Een winkelnaam en beschrijving worden weergegeven in de voorbeeldafbeelding. [Meer informatie](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "text": {
               "label": "Tekst"
@@ -1484,72 +1511,132 @@
                 "label": "Geen"
               },
               "options__2": {
-                "label": "Doos"
+                "label": "Apple"
               },
               "options__3": {
-                "label": "Chatbubbel"
+                "label": "Banaan"
               },
               "options__4": {
-                "label": "Vinkje"
+                "label": "Fles"
               },
               "options__5": {
-                "label": "Droger"
+                "label": "Vak"
               },
               "options__6": {
-                "label": "Oog"
+                "label": "Wortel"
               },
               "options__7": {
-                "label": "Hart"
+                "label": "Chatbubbel"
               },
               "options__8": {
-                "label": "Strijkijzer"
+                "label": "Vinkje"
               },
               "options__9": {
-                "label": "Blad"
+                "label": "Klembord"
               },
               "options__10": {
-                "label": "Leder"
+                "label": "Zuivel"
               },
               "options__11": {
-                "label": "Slot"
+                "label": "Zuivelvrij"
               },
               "options__12": {
-                "label": "Kaart-pin"
+                "label": "Droger"
               },
               "options__13": {
-                "label": "Broeken"
+                "label": "Oog"
               },
               "options__14": {
-                "label": "Vliegtuig"
+                "label": "Vuur"
               },
               "options__15": {
-                "label": "Prijskaartje"
+                "label": "Glutenvrij"
               },
               "options__16": {
-                "label": "Vraagteken"
+                "label": "Hart"
               },
               "options__17": {
-                "label": "Retourneren"
+                "label": "Strijkijzer"
               },
               "options__18": {
-                "label": "Liniaal"
+                "label": "Blad"
               },
               "options__19": {
-                "label": "Overhemd"
+                "label": "Leder"
               },
               "options__20": {
-                "label": "Schoen"
+                "label": "Bliksemstraal"
               },
               "options__21": {
-                "label": "Silhouet"
+                "label": "Lipstick"
               },
               "options__22": {
-                "label": "Ster"
+                "label": "Slot"
               },
               "options__23": {
-                "label": "Vrachtwagen"
+                "label": "Kaart-pin"
               },
               "options__24": {
+                "label": "Zonder noten"
+              },
+              "options__25": {
+                "label": "Lange broeken"
+              },
+              "options__26": {
+                "label": "Print van klauw"
+              },
+              "options__27": {
+                "label": "Peper"
+              },
+              "options__28": {
+                "label": "Parfum"
+              },
+              "options__29": {
+                "label": "Vliegtuig"
+              },
+              "options__30": {
+                "label": "Planten"
+              },
+              "options__31": {
+                "label": "Prijskaartje"
+              },
+              "options__32": {
+                "label": "Vraagteken"
+              },
+              "options__33": {
+                "label": "Recyclen"
+              },
+              "options__34": {
+                "label": "Retourneren"
+              },
+              "options__35": {
+                "label": "Liniaal"
+              },
+              "options__36": {
+                "label": "Serveerschaal"
+              },
+              "options__37": {
+                "label": "Overhemd"
+              },
+              "options__38": {
+                "label": "Schoen"
+              },
+              "options__39": {
+                "label": "Silhouet"
+              },
+              "options__40": {
+                "label": "Sneeuwvlokje"
+              },
+              "options__41": {
+                "label": "Ster"
+              },
+              "options__42": {
+                "label": "Stopwatch"
+              },
+              "options__43": {
+                "label": "Vrachtwagen"
+              },
+              "options__44": {
                 "label": "Wassen"
               }
             }
@@ -1579,7 +1666,7 @@
           "name": "Productbeoordeling",
           "settings": {
             "paragraph": {
-              "content": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#product-rating-block)"
+              "content": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
             }
           }
         }
@@ -1587,7 +1674,7 @@
       "settings": {
         "header": {
           "content": "Media",
-          "info": "Meer informatie over [mediatypen](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Meer informatie over [mediatypen](https://help.shopify.com/manual/products/product-media)"
         },
         "enable_video_looping": {
           "label": "Video-looping inschakelen"
@@ -1638,7 +1725,7 @@
       "name": "Zoekresultaten",
       "settings": {
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -1651,9 +1738,6 @@
         },
         "show_secondary_image": {
           "label": "Tweede afbeeldingen tonen als je de aanwijzer erboven houdt"
-        },
-        "add_image_padding": {
-          "label": "Opvulling voor afbeeldingen toevoegen"
         },
         "show_vendor": {
           "label": "Verkoper weergeven"
@@ -1670,12 +1754,9 @@
         "article_show_author": {
           "label": "Auteur weergeven"
         },
-        "show_image_outline": {
-          "label": "Toon afbeeldingsrand"
-        },
         "show_rating": {
           "label": "Geef productbeoordeling weer",
-          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#search-results-show-product-rating)"
+          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
         }
       }
     },
@@ -1698,7 +1779,7 @@
           }
         },
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -1791,7 +1872,7 @@
           "label": "Volledige breedte voor sectie gebruiken"
         },
         "paragraph": {
-          "content": "Voor elk abonnement via e-mail wordt een klantaccount aangemaakt. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/customers)"
+          "content": "Voor elk abonnement via e-mail wordt een klantaccount aangemaakt. [Meer informatie](https://help.shopify.com/en/manual/customers)"
         }
       },
       "blocks": {
@@ -1840,7 +1921,7 @@
           "content": "Productkaart"
         },
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -1854,21 +1935,15 @@
         "show_secondary_image": {
           "label": "Tweede afbeeldingen tonen als je de aanwijzer erboven houdt"
         },
-        "add_image_padding": {
-          "label": "Opvulling voor afbeeldingen toevoegen"
-        },
         "show_vendor": {
           "label": "Verkoper weergeven"
         },
         "paragraph__1": {
-          "content": "Dynamische aanbevelingen gebruiken bestellings- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
-        },
-        "show_image_outline": {
-          "label": "Toon afbeeldingsrand"
+          "content": "Dynamische aanbevelingen gebruiken bestellings- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https://help.shopify.com/en/themes/development/recommended-products)"
         },
         "show_rating": {
           "label": "Geef productbeoordeling weer",
-          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/page-types#product-recommendations-show-product-rating)"
+          "info": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
         }
       }
     },
@@ -2037,7 +2112,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Dynamische checkout-knoppen weergeven",
-              "info": "Bij de betaalmethoden die bij je winkel beschikbaar zijn, zien klanten de optie die hun voorkeur heeft, zoals PayPal of Apple Pay. [Meer informatie](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+              "info": "Bij de betaalmethoden die bij je winkel beschikbaar zijn, zien klanten de optie die hun voorkeur heeft, zoals PayPal of Apple Pay. [Meer informatie](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             }
           }
         },
@@ -2048,10 +2123,10 @@
           "name": "Delen",
           "settings": {
             "featured_image_info": {
-              "content": "De uitgelichte afbeelding van de pagina wordt weergegeven als een voorbeeldafbeelding als je een link in je posts op social media plaatst. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)"
+              "content": "De uitgelichte afbeelding van de pagina wordt weergegeven als een voorbeeldafbeelding als je een link in je posts op social media plaatst. [Meer informatie](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
-              "content": "Een winkelnaam en beschrijving worden weergegeven in de voorbeeldafbeelding. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+              "content": "Een winkelnaam en beschrijving worden weergegeven in de voorbeeldafbeelding. [Meer informatie](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "text": {
               "label": "Tekstkleur"
@@ -2070,7 +2145,7 @@
           "name": "Productbeoordeling",
           "settings": {
             "paragraph": {
-              "content": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/sections#featured-product-rating)"
+              "content": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
             }
           }
         }
@@ -2084,7 +2159,7 @@
         },
         "header": {
           "content": "Media",
-          "info": "Meer informatie over [mediatypen](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Meer informatie over [mediatypen](https://help.shopify.com/manual/products/product-media)"
         },
         "enable_video_looping": {
           "label": "Video-looping inschakelen"
@@ -2101,7 +2176,7 @@
       "name": "Banner voor aanmelding voor het ontvangen van e-mail",
       "settings": {
         "paragraph": {
-          "content": "Voor elk abonnement via e-mail wordt een klantaccount aangemaakt. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/customers)"
+          "content": "Voor elk abonnement via e-mail wordt een klantaccount aangemaakt. [Meer informatie](https://help.shopify.com/en/manual/customers)"
         },
         "image": {
           "label": "Achtergrondafbeelding"
@@ -2136,7 +2211,7 @@
         },
         "show_text_below": {
           "label": "Content op mobiel onder de afbeelding weergeven",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "image_height": {
           "label": "Hoogte van de banner",
@@ -2152,7 +2227,7 @@
           "options__4": {
             "label": "Groot"
           },
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 16:9. [Meer informatie](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__4": {
@@ -2285,102 +2360,14 @@
             "label": "Getallen"
           }
         },
-        "heading_size": {
-          "label": "Grootte lettertype kop",
-          "options__1": {
-            "label": "Gemiddeld"
-          },
-          "options__2": {
-            "label": "Groot"
-          }
-        },
-        "box_align": {
-          "label": "Positie van content op desktop",
-          "options__1": {
-            "label": "Linksboven"
-          },
-          "options__2": {
-            "label": "Centraal boven"
-          },
-          "options__3": {
-            "label": "Rechtsboven"
-          },
-          "options__4": {
-            "label": "Midden links"
-          },
-          "options__5": {
-            "label": "Centraal midden"
-          },
-          "options__6": {
-            "label": "Midden rechts"
-          },
-          "options__7": {
-            "label": "Linksonder"
-          },
-          "options__8": {
-            "label": "Midden onder"
-          },
-          "options__9": {
-            "label": "Rechtsonder"
-          }
-        },
-        "show_text_box": {
-          "label": "Container op desktop weergeven"
-        },
-        "text_alignment": {
-          "label": "Uitlijning van content op desktop",
-          "option_1": {
-            "label": "Links"
-          },
-          "option_2": {
-            "label": "Centraal"
-          },
-          "option_3": {
-            "label": "Rechts"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "Doorzichtigheid van afbeeldingsoverlay"
-        },
         "auto_rotate": {
           "label": "Dia's automatisch draaien"
         },
         "change_slides_speed": {
           "label": "Wijzig dia's elke"
         },
-        "color_scheme": {
-          "label": "Kleurschema voor vak",
-          "info": "Zichtbaar wanneer de container wordt weergegeven.",
-          "options__1": {
-            "label": "Accent 1"
-          },
-          "options__2": {
-            "label": "Accent 2"
-          },
-          "options__3": {
-            "label": "Achtergrond 1"
-          },
-          "options__4": {
-            "label": "Achtergrond 2"
-          },
-          "options__5": {
-            "label": "Omkeren"
-          }
-        },
         "mobile": {
           "content": "Mobiele opmaak"
-        },
-        "text_alignment_mobile": {
-          "label": "Uitlijning van content op mobiel",
-          "options__1": {
-            "label": "Links"
-          },
-          "options__2": {
-            "label": "Centraal"
-          },
-          "options__3": {
-            "label": "Rechts"
-          }
         },
         "show_text_below": {
           "label": "Content op mobiel onder de afbeelding weergeven"
@@ -2409,8 +2396,7 @@
               "info": "Laat het label leeg om de knop te verbergen."
             },
             "link": {
-              "label": "Knoplink",
-              "info": "Laat het label leeg om de knop te verbergen."
+              "label": "Knoplink"
             },
             "secondary_style": {
               "label": "Gebruik contouren als knopstijl"
@@ -2594,7 +2580,7 @@
           "label": "Afbeelding"
         },
         "image_ratio": {
-          "label": "Breedte-\/hoogteverhouding van afbeeldingen",
+          "label": "Breedte-/hoogteverhouding van afbeeldingen",
           "options__1": {
             "label": "Aanpassen aan afbeelding"
           },
@@ -2608,10 +2594,10 @@
         "desktop_layout": {
           "label": "Opmaak bureaublad",
           "options__1": {
-            "label": "Tekst eerst"
+            "label": "Afbeelding eerst"
           },
           "options__2": {
-            "label": "Afbeelding eerst"
+            "label": "Afbeelding als tweede"
           },
           "info": "Afbeelding wordt als eerste weergegeven op mobiel."
         }
@@ -2636,72 +2622,132 @@
                 "label": "Geen"
               },
               "options__2": {
-                "label": "Vak"
+                "label": "Apple"
               },
               "options__3": {
-                "label": "Chatbubbel"
+                "label": "Banaan"
               },
               "options__4": {
-                "label": "Vinkje"
+                "label": "Fles"
               },
               "options__5": {
-                "label": "Droger"
+                "label": "Vak"
               },
               "options__6": {
-                "label": "Oog"
+                "label": "Wortel"
               },
               "options__7": {
-                "label": "Hart"
+                "label": "Chatbubbel"
               },
               "options__8": {
-                "label": "Strijkijzer"
+                "label": "Vinkje"
               },
               "options__9": {
-                "label": "Blad"
+                "label": "Klembord"
               },
               "options__10": {
-                "label": "Leder"
+                "label": "Zuivel"
               },
               "options__11": {
-                "label": "Slot"
+                "label": "Zuivelvrij"
               },
               "options__12": {
-                "label": "Kaart-pin"
+                "label": "Droger"
               },
               "options__13": {
-                "label": "Lange broeken"
+                "label": "Oog"
               },
               "options__14": {
-                "label": "Vliegtuig"
+                "label": "Vuur"
               },
               "options__15": {
-                "label": "Prijskaartje"
+                "label": "Glutenvrij"
               },
               "options__16": {
-                "label": "Vraagteken"
+                "label": "Hart"
               },
               "options__17": {
-                "label": "Retourneren"
+                "label": "Strijkijzer"
               },
               "options__18": {
-                "label": "Liniaal"
+                "label": "Blad"
               },
               "options__19": {
-                "label": "Overhemd"
+                "label": "Leder"
               },
               "options__20": {
-                "label": "Schoen"
+                "label": "Bliksemstraal"
               },
               "options__21": {
-                "label": "Silhouet"
+                "label": "Lipstick"
               },
               "options__22": {
-                "label": "Ster"
+                "label": "Slot"
               },
               "options__23": {
-                "label": "Vrachtwagen"
+                "label": "Kaart-pin"
               },
               "options__24": {
+                "label": "Zonder noten"
+              },
+              "options__25": {
+                "label": "Lange broeken"
+              },
+              "options__26": {
+                "label": "Print van klauw"
+              },
+              "options__27": {
+                "label": "Peper"
+              },
+              "options__28": {
+                "label": "Parfum"
+              },
+              "options__29": {
+                "label": "Vliegtuig"
+              },
+              "options__30": {
+                "label": "Planten"
+              },
+              "options__31": {
+                "label": "Prijskaartje"
+              },
+              "options__32": {
+                "label": "Vraagteken"
+              },
+              "options__33": {
+                "label": "Recyclen"
+              },
+              "options__34": {
+                "label": "Retourneren"
+              },
+              "options__35": {
+                "label": "Liniaal"
+              },
+              "options__36": {
+                "label": "Serveerschaal"
+              },
+              "options__37": {
+                "label": "Overhemd"
+              },
+              "options__38": {
+                "label": "Schoen"
+              },
+              "options__39": {
+                "label": "Silhouet"
+              },
+              "options__40": {
+                "label": "Sneeuwvlokje"
+              },
+              "options__41": {
+                "label": "Ster"
+              },
+              "options__42": {
+                "label": "Stopwatch"
+              },
+              "options__43": {
+                "label": "Vrachtwagen"
+              },
+              "options__44": {
                 "label": "Wassen"
               }
             }

@@ -34,14 +34,6 @@ cd dawn
 shopify theme serve
 ```
 
-echo "" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/gregjotau/dawn-purete.git
-git push -u origin main
-
 >:information_source: You'll need access to a Shopify store in order to get started with theme development. If you don't already have one, you can set up a [development store](https://shopify.dev/themes/tools/development-stores).
 
 ## Staying up to date with Dawn changes
@@ -114,4 +106,3 @@ Ensure that you follow the list of [theme store requirements](https://shopify.de
 ## License
 
 Copyright (c) 2021-present Shopify Inc. See [LICENSE](/LICENSE.md) for further details.
-
