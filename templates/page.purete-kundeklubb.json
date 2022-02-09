@@ -1,26 +1,18 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 68
-      }
-    },
     "1637843538a5453269": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "1637843538a65d7318-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meld deg på vårt nyhetsbrev"
+            "heading": "Bli en del av fellesskapet"
           }
         },
         "1637843538a65d7318-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Motta spennende nyheter, tilbud og andre ekslusive insights <\/p>"
+            "text": "<p>Våre medlemmer vil alltid få de beste fordelene. Meld deg inn i vår kundeklubb og bli en del av Pureté Exclusive ❤️ Motta spennende nyheter, tilbud og andre ekslusive insights på e-post! <\/p>"
           }
         },
         "1637843538a65d7318-2": {
@@ -40,10 +32,55 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "1644401974f22ed95e": {
+      "type": "rich-text",
+      "blocks": {
+        "16444019743a240152-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pureté Exclusive på Facebook",
+            "heading_size": "h1"
+          }
+        },
+        "16444019743a240152-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ønsker du å ta enda mer del i Pureté? På Facebook kan du bli del av vår produktuviklinggruppe. Din  stemme vil bli hørt! Vi setter pris på alt av tilbakemeldinger, tips og ideer.  <\/p>"
+          }
+        },
+        "16444019743a240152-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Bli medlem her",
+            "button_link": "https:\/\/www.facebook.com\/groups\/pureteexclusive",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16444019743a240152-0",
+        "16444019743a240152-1",
+        "16444019743a240152-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
+    "1637843538a5453269",
     "main",
-    "1637843538a5453269"
+    "1644401974f22ed95e"
   ]
 }
