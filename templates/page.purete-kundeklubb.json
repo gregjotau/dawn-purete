@@ -2,26 +2,31 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
     },
     "1637843538a5453269": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "1637843538a65d7318-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meld deg inn i Pureté Exlusive nå"
+            "heading": "Meld deg på vårt nyhetsbrev"
           }
         },
         "1637843538a65d7318-1": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "<p>Få med deg alt av nyheter før lansering! <\/p>"
+            "text": "<p>Motta spennende nyheter, tilbud og andre ekslusive insights <\/p>"
           }
         },
         "1637843538a65d7318-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -31,7 +36,9 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
