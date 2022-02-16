@@ -1,12 +1,168 @@
 {
   "sections": {
+    "16450068422d411fef": {
+      "type": "slideshow",
+      "blocks": {
+        "16450068426a534dec-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/purete-hudpleoe.png",
+            "heading": "Oljete hud",
+            "heading_size": "small",
+            "subheading": "Pureté har produkter til alle hudtyper",
+            "button_label": "Se produkter til oljete hud",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16450068426a534dec-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/face-treatment-with-a-smile.jpg",
+            "heading": "Tørr hud",
+            "heading_size": "small",
+            "subheading": "Pureté har produkter til alle hudtyper",
+            "button_label": "Se produkter til tørr hud her",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "ffd5fa04-63e5-4574-b926-e265ca4f5739": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/making-funny-faces-during-skincare-routine.jpg",
+            "heading": "Normal hud",
+            "heading_size": "medium",
+            "subheading": "Pureté har produkter til alle hudtyper",
+            "button_label": "Se produkter til normal hud",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "dc0fad06-8a18-4f16-9050-a06a6dc7051e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hands-rubbing-together.jpg",
+            "heading": "Moden hud",
+            "heading_size": "medium",
+            "subheading": "Pureté har produkter til alle hudtyper",
+            "button_label": "Se produkter til moden hud",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16450068426a534dec-0",
+        "16450068426a534dec-1",
+        "ffd5fa04-63e5-4574-b926-e265ca4f5739",
+        "dc0fad06-8a18-4f16-9050-a06a6dc7051e"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164500656077bc9437": {
+      "type": "collapsible-content",
+      "blocks": {
+        "164500656085a524bc-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Oljete hud",
+            "icon": "heart",
+            "row_content": "<p>Hva kjennetegner oljete hud? link til produkter<\/p>",
+            "page": ""
+          }
+        },
+        "164500656085a524bc-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Tørr hud",
+            "icon": "heart",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "164500656085a524bc-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Normal hud",
+            "icon": "heart",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "164500656085a524bc-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Moden hud",
+            "icon": "heart",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "164500656085a524bc-0",
+        "164500656085a524bc-1",
+        "164500656085a524bc-2",
+        "164500656085a524bc-3"
+      ],
+      "settings": {
+        "caption": "Pureté hjelper deg med å finne de rette produktene",
+        "heading": "Hvilken hudtype har du?",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "16450068422d411fef",
+    "main",
+    "164500656077bc9437"
   ]
 }
