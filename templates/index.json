@@ -135,6 +135,7 @@
       "blocks": {
         "16264658478aa8e9df-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Den beste hudpleien",
             "heading_size": "medium"
@@ -142,6 +143,7 @@
         },
         "16264658478aa8e9df-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Finn produkter til alle formål. Hudpleie skal være enkelt og rimelig. Vi tilbyr flere produkter som skal sørge for at du føler deg like fresh både med og uten sminke!",
             "text_style": "body"
@@ -149,6 +151,7 @@
         },
         "16264658478aa8e9df-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Kjøp her",
             "button_link_1": "shopify:\/\/collections\/concealer",
@@ -165,7 +168,7 @@
         "16264658478aa8e9df-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman-practicing-her-skincare-routine.jpg",
+        "image": "shopify:\/\/shop_images\/eksempel_til_banner_forside_ce70679d-a807-46fb-ad19-63cc70b3baac.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
