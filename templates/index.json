@@ -1,7 +1,59 @@
 {
   "sections": {
+    "1646128313b35abc6e": {
+      "type": "image-banner",
+      "blocks": {
+        "1646128313b5c11a9a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1646128313b5c11a9a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1646128313b5c11a9a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1646128313b5c11a9a-0",
+        "1646128313b5c11a9a-1",
+        "1646128313b5c11a9a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/eksempel_til_banner_forside_42c1529b-2f7d-4607-9beb-9f27a200a39d.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "16252134879571dabc": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/purete-header-launching_e6edce06-2111-4336-b4bb-df7fcc272a28.png",
         "image_overlay_opacity": 0,
@@ -83,6 +135,7 @@
       "blocks": {
         "16264658478aa8e9df-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Den beste hudpleien",
             "heading_size": "medium"
@@ -90,6 +143,7 @@
         },
         "16264658478aa8e9df-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Finn produkter til alle formål. Hudpleie skal være enkelt og rimelig. Vi tilbyr flere produkter som skal sørge for at du føler deg like fresh både med og uten sminke!",
             "text_style": "body"
@@ -97,6 +151,7 @@
         },
         "16264658478aa8e9df-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Kjøp her",
             "button_link_1": "shopify:\/\/collections\/concealer",
@@ -113,9 +168,9 @@
         "16264658478aa8e9df-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman-practicing-her-skincare-routine.jpg",
+        "image": "shopify:\/\/shop_images\/eksempel_til_banner_forside_8a56c116-04c2-4962-a17f-ea3839895495.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -203,7 +258,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -229,6 +284,7 @@
     }
   },
   "order": [
+    "1646128313b35abc6e",
     "16252134879571dabc",
     "1641984502d0ddf793",
     "16256745504cac095c",

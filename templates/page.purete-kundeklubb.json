@@ -2,7 +2,11 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
     },
     "1637843538a5453269": {
       "type": "newsletter",
@@ -10,18 +14,19 @@
         "1637843538a65d7318-0": {
           "type": "heading",
           "settings": {
-            "heading": "Meld deg inn i Pureté Exlusive nå"
+            "heading": "Bli en del av fellesskapet"
           }
         },
         "1637843538a65d7318-1": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "<p>Få med deg alt av nyheter før lansering! <\/p>"
+            "text": "<p>Våre medlemmer vil alltid få de beste fordelene. Meld deg inn i vår kundeklubb og bli en del av Pureté Exclusive ❤️ Motta spennende nyheter, tilbud og andre ekslusive insights på e-post! <em>Obs: Sjekk søppelpost om du ikke mottar mail.<\/em><\/p>"
           }
         },
         "1637843538a65d7318-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -31,12 +36,52 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1644401974f22ed95e": {
+      "type": "rich-text",
+      "blocks": {
+        "16444019743a240152-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pureté Exclusive på Facebook",
+            "heading_size": "h1"
+          }
+        },
+        "16444019743a240152-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ønsker du å ta enda mer del i Pureté? På Facebook kan du bli del av vår produktuviklinggruppe. Din  stemme vil bli hørt! Vi setter pris på alt av tilbakemeldinger, tips og ideer.  <\/p>"
+          }
+        },
+        "16444019743a240152-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Bli medlem her",
+            "button_link": "https:\/\/www.facebook.com\/groups\/pureteexclusive",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16444019743a240152-0",
+        "16444019743a240152-1",
+        "16444019743a240152-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "1637843538a5453269"
+    "1637843538a5453269",
+    "1644401974f22ed95e"
   ]
 }
