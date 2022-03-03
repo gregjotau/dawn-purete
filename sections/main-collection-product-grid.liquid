@@ -48,11 +48,10 @@
           <div class="loading-overlay gradient"></div>
   
           <ul id="product-grid" data-id="{{ section.id }}" class="
-            grid grid--2-col product-grid
-            {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
-              {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
-            {% endif %}">
+            grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+            grid--{{ section.settings.columns_desktop }}-col-desktop">
             {%- for product in collection.products -%}
+              {%- if product.tags contains 'hide-product'-%}{%- continue -%}{%- endif -%}
               {% assign lazy_load = false %}
               {%- if forloop.index > 2 -%}
                 {%- assign lazy_load = true -%}
@@ -67,12 +66,33 @@
                   show_rating: section.settings.show_rating,
                   lazy_load: lazy_load
                 %}
+                {% render 'collection-swatch', product: product %}
               </li>
             {%- endfor -%}
           </ul>
   
           {%- if paginate.pages > 1 -%}
-            {% render 'pagination', paginate: paginate, anchor: '' %}
+            <div class="pagination-wrapper more">
+              <a href="{{ collection.url }}?page={{ paginate.current_page | plus: 1 }}" id="{{ paginate.pages }}" Class="button button--primary">{{ 'shopify.checkout.general.expand_notice_label' | t }}</a>
+            </div>
+            <script>
+              window.onscroll = function(){
+                if (document.querySelector('div.more>a').getBoundingClientRect().bottom < 3500 && document.querySelector('div.more>a').innerHTML != '{{ 'accessibility.loading' | t }}'){
+                  document.querySelector('div.more>a').innerHTML = '{{ 'accessibility.loading' | t }}';
+                  fetch(document.querySelector('div.more>a').href, {method: 'get', credentials: 'include'}).then(response=>response.text()).then(res=>{
+                    document.querySelector('ul#product-grid').innerHTML += new DOMParser().parseFromString(res, "text/html").body.querySelector('ul#product-grid').innerHTML;
+                    //window.history.replaceState('', '', document.querySelector('div.more>a').href);
+                    if (document.querySelector('div.more>a').href.slice(-1) < parseInt(document.querySelector('div.more>a').id)){
+                      document.querySelector('div.more>a').href = document.querySelector('div.more>a').href.slice(0, -1) + (parseInt(document.querySelector('div.more>a').href.slice(-1)) + 1);
+                      document.querySelector('div.more>a').innerHTML = '{{ 'shopify.checkout.general.expand_notice_label' | t }}';
+                    } else {
+                      document.querySelector('div.more>a').remove();
+                    }
+                  });
+                }
+              }
+            </script>
+            {% comment %}{% render 'pagination', paginate: paginate, anchor: '' %}{% endcomment %}
           {%- endif -%}
         </div>
       {%- endif -%}
@@ -89,10 +109,19 @@
       "type": "range",
       "id": "products_per_page",
       "min": 8,
-      "max": 24,
-      "step": 4,
+      "max": 50,
+      "step": 2,
       "default": 16,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 4,
+      "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
     },
     {
       "type": "header",
@@ -159,6 +188,26 @@
       "id": "collapse_on_larger_devices",
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.collapse_on_larger_devices.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-collection-product-grid.settings.header_mobile.content"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "default": "2",
+      "label": "t:sections.main-collection-product-grid.settings.columns_mobile.label",
+      "options": [
+        {
+          "value": "1",
+          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__1.label"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
+        }
+      ]
     },
     {
       "type": "header",

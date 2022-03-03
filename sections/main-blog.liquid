@@ -16,7 +16,7 @@
   }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
+{%- paginate blog.articles by 24 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
 
@@ -116,7 +116,6 @@
       "type": "paragraph",
       "content": "t:sections.main-blog.settings.paragraph.content"
     },
-
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
