@@ -10,6 +10,8 @@
     "heading_scale": 100,
     "type_body_font": "montserrat_n4",
     "body_scale": 105,
+    "sale_badge_color_scheme": "background-2",
+    "sold_out_badge_color_scheme": "inverse",
     "social_facebook_link": "https:\/\/www.facebook.com\/purete.cosmetics",
     "social_pinterest_link": "",
     "social_instagram_link": "https:\/\/www.instagram.com\/purete.no",
@@ -24,8 +26,6 @@
     "checkout_accent_color": "#8a9e93",
     "checkout_button_color": "#8a9e93",
     "checkout_error_color": "#ec7a7a",
-    "sale_badge_color_scheme": "background-2",
-    "sold_out_badge_color_scheme": "inverse",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
