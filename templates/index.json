@@ -355,6 +355,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16466543841e1e775b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -366,6 +375,7 @@
     "1641984570c9fe666e",
     "1641984722fcc3092b",
     "1646652336f716528b",
-    "1642618058693efad2"
+    "1642618058693efad2",
+    "16466543841e1e775b"
   ]
 }
