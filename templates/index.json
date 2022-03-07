@@ -288,23 +288,6 @@
         "show_text_below": true
       }
     },
-    "1642618058693efad2": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "En bedre hverdag med Pureté",
-        "heading_size": "h1",
-        "blog": "hudpleie",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1646652336f716528b": {
       "type": "image-banner",
       "blocks": {
@@ -354,6 +337,23 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1642618058693efad2": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "En bedre hverdag med Pureté",
+        "heading_size": "h1",
+        "blog": "hudpleie",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -364,7 +364,7 @@
     "16264658478aa8e9df",
     "1641984570c9fe666e",
     "1641984722fcc3092b",
-    "1642618058693efad2",
-    "1646652336f716528b"
+    "1646652336f716528b",
+    "1642618058693efad2"
   ]
 }
