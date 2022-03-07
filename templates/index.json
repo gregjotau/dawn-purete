@@ -288,6 +288,56 @@
         "show_text_below": true
       }
     },
+    "1646652336f716528b": {
+      "type": "image-banner",
+      "blocks": {
+        "164665233573e2c121-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "164665233573e2c121-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "164665233573e2c121-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164665233573e2c121-0",
+        "164665233573e2c121-1",
+        "164665233573e2c121-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6_5e6d92c2-4d2e-4a41-be23-2825de6a9c17.png",
+        "image_url": "",
+        "image_overlay_opacity": 0,
+        "image2_url": "",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1642618058693efad2": {
       "type": "featured-blog",
       "settings": {
@@ -304,36 +354,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "164665390991b8f4b4": {
-      "type": "image-banner",
-      "blocks": {
-        "1646653909aeb25fcf-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "1646653909aeb25fcf-0"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/purete.exclusive.kundeklubb.banner.png",
-        "image_url": "",
-        "image_overlay_opacity": 0,
-        "image2_url": "",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -344,7 +364,7 @@
     "16264658478aa8e9df",
     "1641984570c9fe666e",
     "1641984722fcc3092b",
-    "1642618058693efad2",
-    "164665390991b8f4b4"
+    "1646652336f716528b",
+    "1642618058693efad2"
   ]
 }
