@@ -35,6 +35,7 @@
         "description": {
           "type": "description",
           "settings": {
+            "icon": "check_mark"
           }
         },
         "336bcf6f-acc7-4394-b194-c3ab97b5a4e9": {
@@ -74,18 +75,22 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "bg": "#f5f5f5"
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Du liker kanskje også",
+        "heading_size": "h1",
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
