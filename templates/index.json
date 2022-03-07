@@ -340,6 +340,7 @@
     },
     "1642618058693efad2": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "En bedre hverdag med Pureté",
         "heading_size": "h1",
