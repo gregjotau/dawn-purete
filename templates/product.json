@@ -20,8 +20,15 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -30,12 +37,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "icon": "check_mark"
           }
         },
         "336bcf6f-acc7-4394-b194-c3ab97b5a4e9": {
@@ -61,9 +62,9 @@
         "vendor",
         "title",
         "price",
+        "description",
         "variant_picker",
         "buy_buttons",
-        "description",
         "336bcf6f-acc7-4394-b194-c3ab97b5a4e9",
         "db56ba4a-5be0-429b-93b2-c8638ae97b4c"
       ],
