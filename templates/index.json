@@ -175,8 +175,9 @@
         "16264658478aa8e9df-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/eksempel_til_banner_e3ac6e54-2349-4ff4-8f56-0eae1fe4cf76.png",
-        "image_url": "shopify:\/\/collections\/all",
+        "image": "shopify:\/\/shop_images\/Purete-boosters-oil-banner-1800_x_600_px.png",
+        "image_m": "shopify:\/\/shop_images\/Purete-boosters-oil-banner-1800_x_600_px.png",
+        "image_url": "shopify:\/\/collections\/booster",
         "image_overlay_opacity": 0,
         "image2_url": "",
         "image_height": "small",
