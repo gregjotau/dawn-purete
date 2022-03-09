@@ -25,8 +25,8 @@
     "checkout_logo_position": "left",
     "checkout_heading_font": "Roboto",
     "checkout_body_font": "Roboto",
-    "checkout_accent_color": "#8a9e93",
-    "checkout_button_color": "#8a9e93",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#dfd6c7",
     "checkout_error_color": "#ec7a7a",
     "sections": {
       "announcement-bar": {
