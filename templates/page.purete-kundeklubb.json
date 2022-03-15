@@ -14,13 +14,14 @@
         "1637843538a65d7318-0": {
           "type": "heading",
           "settings": {
-            "heading": "Bli en del av fellesskapet"
+            "heading": "Bli en del av fellesskapet",
+            "heading_size": "h1"
           }
         },
         "1637843538a65d7318-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Våre medlemmer vil alltid få de beste fordelene. Meld deg inn i vår kundeklubb og bli en del av Pureté Exclusive ❤️ Motta spennende nyheter, tilbud og andre ekslusive insights på e-post! <em>Obs: Sjekk søppelpost om du ikke mottar mail.<\/em><\/p>"
+            "text": "<p>Våre medlemmer vil alltid få de beste fordelene. Meld deg inn i vår kundeklubb og bli en del av Pureté Exclusive ❤️ Motta spennende nyheter, tilbud og andre ekslusive insights på e-post! Nye kunder mottar også en rabattkode på 10%.<\/p><p><em>Obs: Sjekk søppelpost om du ikke mottar mail.<\/em><\/p>"
           }
         },
         "1637843538a65d7318-2": {
@@ -54,7 +55,7 @@
         "16444019743a240152-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ønsker du å ta enda mer del i Pureté? På Facebook kan du bli del av vår produktuviklinggruppe. Din  stemme vil bli hørt! Vi setter pris på alt av tilbakemeldinger, tips og ideer.  <\/p>"
+            "text": "<p>Ønsker du å ta enda mer del i Pureté? På Facebook kan du bli del av vår produktuviklinggruppe. Din  stemme vil bli hørt! Vi setter pris på alt av tilbakemeldinger, tips og ideer. <br\/><br\/><em>Psst...<\/em>🤫<em> Vi deler de beste rabattkodene og kampanjene i denne gruppen. <\/em><\/p>"
           }
         },
         "16444019743a240152-2": {
