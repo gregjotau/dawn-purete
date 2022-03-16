@@ -13,7 +13,13 @@
   }
   ul.product-bullets li {
     margin: 10px 0;
-    /*list-style: none;*/
+    list-style: none;
+    position: relative;
+  }
+  ul.product-bullets li:before {
+    content: '❤';
+    position: absolute;
+    left: -25px;
   }
   .product-bullets__text {
     font-weight: bold;
