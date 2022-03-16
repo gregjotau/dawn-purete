@@ -6,20 +6,20 @@
 </ul>
 <style>
   ul.product-bullets {
-    margin: 20px 0;
+    padding: 0;
+    /*margin: 20px 0;
     padding: 10px 20px 10px 40px;
     background: {{ section.settings.bg }};
-    min-height: 140px;
+    min-height: 140px;*/
   }
   ul.product-bullets li {
-    margin: 10px 0;
+    margin: 0 10px 0 0;
     list-style: none;
-    position: relative;
+    display: inline-block;
   }
   ul.product-bullets li:before {
     content: '❤';
-    position: absolute;
-    left: -25px;
+    margin-right: 5px;
   }
   .product-bullets__text {
     font-weight: bold;
