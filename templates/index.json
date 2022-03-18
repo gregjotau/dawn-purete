@@ -175,7 +175,7 @@
         "16264658478aa8e9df-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Purete-boosters-oil-banner-1800_x_600_px.png",
+        "image": "shopify:\/\/shop_images\/4.png",
         "image_m": "shopify:\/\/shop_images\/purete-banner-mobilversjon_5b02c7ac-cac1-4e6f-adad-64bef08af01e.png",
         "image_url": "shopify:\/\/collections\/booster",
         "image_overlay_opacity": 0,
@@ -240,10 +240,10 @@
     },
     "1641984722fcc3092b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1641984722df3574cf-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Naturlig hudpleie",
             "heading_size": "medium"
@@ -251,6 +251,7 @@
         },
         "1641984722df3574cf-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Naturlig hudpleie som gir resultater. Oppnå ren og fresh hud med enkle produkter.",
             "text_style": "body"
@@ -274,7 +275,7 @@
         "1641984722df3574cf-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Purete-serie-normal-torr-banner-1800_x_600_px_1.png",
+        "image": "shopify:\/\/shop_images\/5.png",
         "image_url": "shopify:\/\/collections\/normal-hud",
         "image_overlay_opacity": 0,
         "image2_url": "",
