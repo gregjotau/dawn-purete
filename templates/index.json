@@ -330,6 +330,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Purete-normal-torr-banner.png",
+        "image_m": "shopify:\/\/shop_images\/Purete-mobil-banner-normal-torr.png",
         "image_url": "shopify:\/\/collections\/normal-hud",
         "image_overlay_opacity": 0,
         "image2_url": "",
