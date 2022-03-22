@@ -277,6 +277,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/7.png",
+        "image_m": "shopify:\/\/shop_images\/Purete-mobil-banner-oljete-kombinert.png",
         "image_url": "shopify:\/\/collections\/fet-kombinert-hud",
         "image_overlay_opacity": 0,
         "image2_url": "",
