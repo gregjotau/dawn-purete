@@ -446,6 +446,45 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "1648555646ab1cd3a4": {
+      "type": "rich-text",
+      "blocks": {
+        "16485556467a438271-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "#Pureteskincare",
+            "heading_size": "h1"
+          }
+        },
+        "16485556467a438271-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "16485556467a438271-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16485556467a438271-0",
+        "16485556467a438271-1",
+        "16485556467a438271-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 44
+      }
     }
   },
   "order": [
@@ -460,6 +499,7 @@
     "1646654736b58ccb56",
     "1646652336f716528b",
     "1642618058693efad2",
-    "16466543841e1e775b"
+    "16466543841e1e775b",
+    "1648555646ab1cd3a4"
   ]
 }
