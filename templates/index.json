@@ -405,6 +405,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Purete-blogg-banner_2_539d8071-b332-4a0f-9251-06cd71016676.png",
+        "image_m": "shopify:\/\/shop_images\/Purete-mobil-banner-blogg.png",
         "image_url": "shopify:\/\/blogs\/hudpleie",
         "image_overlay_opacity": 0,
         "image2_url": "",
