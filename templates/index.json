@@ -197,7 +197,7 @@
         "16419845702dce8ef9-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "fet-kombinert-hud"
+            "collection": "oljete-hud"
           }
         },
         "16419845702dce8ef9-1": {
@@ -278,7 +278,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Purete-blogg-banner_2_20243c16-0d1e-440d-a075-d70af89d66b5.png",
         "image_m": "shopify:\/\/shop_images\/Purete-mobil-banner-oljete-kombinert.png",
-        "image_url": "shopify:\/\/collections\/fet-kombinert-hud",
+        "image_url": "shopify:\/\/collections\/oljete-hud",
         "image_overlay_opacity": 0,
         "image2_url": "",
         "image_height": "small",
