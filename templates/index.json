@@ -132,7 +132,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/eksempel_til_banner-kopi.png",
-        "image_url": "",
+        "image_url": "shopify:\/\/collections\/alle-produkter",
         "image_overlay_opacity": 0,
         "image2_url": "",
         "image_height": "small",
