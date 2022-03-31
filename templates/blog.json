@@ -1,29 +1,5 @@
 {
   "sections": {
-    "1642768651f02f3f3b": {
-      "type": "btns",
-      "settings": {
-        "menu": "ingredienser",
-        "bg": "#dfd6c7",
-        "color": "#ffffff",
-        "width": 185,
-        "padx": 20,
-        "pady": 6,
-        "radius": 27
-      }
-    },
-    "1642768645d0df8adb": {
-      "type": "btns",
-      "settings": {
-        "menu": "produkter",
-        "bg": "#dfd6c7",
-        "color": "#ffffff",
-        "width": 185,
-        "padx": 20,
-        "pady": 6,
-        "radius": 27
-      }
-    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -38,8 +14,6 @@
     }
   },
   "order": [
-    "1642768651f02f3f3b",
-    "1642768645d0df8adb",
     "main"
   ]
 }
